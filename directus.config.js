@@ -21,6 +21,6 @@ module.exports = function (env) {
         DB_DATABASE: env.PGDATABASE,
         DB_USER: env.PGUSER,
         DB_PASSWORD: env.PGPASSWORD,
-         DB_PASSWORD2: env.PGPASSWORD,
+         DB_PASSWORD2222: env.PGPASSWORD,
     };
 };
