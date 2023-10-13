@@ -2,10 +2,10 @@
 module.exports = function (env) {
     return {
         // Railway inputs
-        ADMIN_EMAIL: env.ADMIN_EMAIL,
-        ADMIN_PASSWORD: env.ADMIN_PASSWORD,
-        KEY: env.KEY,
-        SECRET: env.SECRET,
+        ADMIN_EMAIL: "hoangvi1185@gmail.com",
+        ADMIN_PASSWORD: "Abd@1289",
+        KEY: "879876",
+        SECRET: "abcdef12fg",
 
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
@@ -16,11 +16,11 @@ module.exports = function (env) {
         // Database variables from Railway PostgreSQL Plugin
         // Reference: https://docs.railway.app/plugins/postgresql
         DB_CLIENT: 'pg',
-        DB_HOST: env.PGHOST,
-        DB_PORT: env.PGPORT,
-        DB_DATABASE: env.PGDATABASE,
-        DB_USER: env.PGUSER,
-        DB_PASSWORD: env.PGPASSWORD,
-         DB_PASSWORD2222: env.PGPASSWORD,
+        DB_HOST: "containers-us-west-145.railway.app",
+        DB_PORT: "5484",
+        DB_DATABASE: "railway",
+        DB_USER: "postgres",
+        DB_PASSWORD: "CTXWtaKXw5Q1tVhXmtSE",
+         DB_PASSWORD2222: "CTXWtaKXw5Q1tVhXmtSE",
     };
 };
