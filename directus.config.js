@@ -16,11 +16,11 @@ module.exports = function (env) {
         // Database variables from Railway PostgreSQL Plugin
         // Reference: https://docs.railway.app/plugins/postgresql
         DB_CLIENT: 'pg',
-        DB_HOST: "containers-us-west-145.railway.app",
-        DB_PORT: "5484",
+        DB_HOST: "monorail.proxy.rlwy.net",
+        DB_PORT: "20836",
         DB_DATABASE: "railway",
         DB_USER: "postgres",
-        DB_PASSWORD: "CTXWtaKXw5Q1tVhXmtSE",
-         DB_PASSWORD2222: "CTXWtaKXw5Q1tVhXmtSE",
+        DB_PASSWORD: "e1eB4CDBAC145FdgAagDdagfFegacaF2",
+         DB_PASSWORD2222: "e1eB4CDBAC145FdgAagDdagfFegacaF2",
     };
 };
