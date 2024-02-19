@@ -4,8 +4,8 @@ module.exports = function (env) {
         // Railway inputs
         ADMIN_EMAIL: "hoangvi1185@gmail.com",
         ADMIN_PASSWORD: "Abd@1289",
-        KEY: "879876",
-        SECRET: "abcdef12fg",
+        KEY: "12341234",
+        SECRET: "fasdfasdfas",
 
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
